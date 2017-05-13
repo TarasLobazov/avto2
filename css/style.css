@@ -101,10 +101,16 @@ ul {
 	text-decoration:none;
 	text-transform:uppercase;
 	margin: 0 20px;
+	padding-bottom: 5px;
 }
 
 .header .menu ul li a:hover{
 	color:#ffce09;
+	position: relative;
+	transform: scale(1.5,1.5);
+	border-bottom: 3px solid white;
+	transition: 0.5s;
+
 }
 
 .content {
@@ -218,8 +224,9 @@ ul {
 	width:980px;
 	height:250px;
 	position:relative;
-	background:url('../images/bg5.png') 180px 30px no-repeat;
+	background:url('../images/warrant.png') 130px 10px no-repeat;
 }
+
 
 .block3 .ins .txt{
 	padding:70px 0 0 445px;
@@ -227,6 +234,7 @@ ul {
 	line-height:60px;
 	color:#eee;
 	text-transform:uppercase;
+	text-align: center;
 }
 
 .block3 .ins .txt span{
@@ -809,6 +817,7 @@ ul {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	behavior: url(./js/PIE.htc);
+	box-shadow: 0.6em 0.6em 8px rgba(122,122,122,0.5);
 
 }
 .order1 div{
@@ -816,11 +825,23 @@ ul {
 	font-size: 28px;
 	text-align: center;
 	letter-spacing: 2px;
-
-
+	transition: 0.5s;
 }
-.order1 div
-
+.order1 div:hover{
+	position: relative;
+	transform: scale(1.5,1.5);
+	color: darkorange;
+	text-shadow: 0.6em 0.6em 8px rgba(122,122,122,0.5);
+	cursor: pointer
+}
+.order1 img{
+	transition: transform 1s;
+}
+.order1 img:hover{
+	transform: rotate(360deg)
+	scale(1.5,1.5)
+	translateY(-30px);
+}
 .order1 .order_ins {
 	text-align:center;
 }
