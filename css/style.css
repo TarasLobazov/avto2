@@ -101,10 +101,16 @@ ul {
 	text-decoration:none;
 	text-transform:uppercase;
 	margin: 0 20px;
+	padding-bottom: 5px;
 }
 
 .header .menu ul li a:hover{
 	color:#ffce09;
+	position: relative;
+	transform: scale(1.5,1.5);
+	border-bottom: 3px solid white;
+	transition: 0.5s;
+
 }
 
 .content {
@@ -826,6 +832,7 @@ ul {
 	transform: scale(1.5,1.5);
 	color: darkorange;
 	text-shadow: 0.6em 0.6em 8px rgba(122,122,122,0.5);
+	cursor: pointer
 }
 .order1 img{
 	transition: transform 1s;
