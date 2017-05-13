@@ -85,13 +85,8 @@ ul {
 
 .header .menu ul li{
 	padding:3px 12px;
-	border-right:1px solid #fff;
 	display:inline-block;
 
-}
-
-.header .menu ul li.first{
-	border-left:1px solid #fff;
 }
 
 .header .menu ul li a{
@@ -101,17 +96,20 @@ ul {
 	text-decoration:none;
 	text-transform:uppercase;
 	margin: 0 20px;
-	padding-bottom: 5px;
+	transition: 0.8s;
 }
 
 .header .menu ul li a:hover{
+	display: block;
 	color:#ffce09;
 	position: relative;
-	transform: scale(1.5,1.5);
-	border-bottom: 3px solid white;
-	transition: 0.5s;
-
+	border: none;
+	box-sizing: border-box;
+	transform: scale(1.4,1.4);
+	border-bottom: 1px solid #fff;
+	padding-bottom:3px;
 }
+
 
 .content {
 	padding:75px 0 0 0;
@@ -177,6 +175,19 @@ ul {
 	padding:40px 0 35px 0;
 	background:url('../images/bg3.jpg') repeat;
 }
+.td1 img{
+ border: solid 3px black;
+	border-radius: 50%;
+	box-shadow: 0 0 5px 2px;
+	transform: scale(0.9,0.9);
+	transition: 0.5s;
+}
+.tr1 img:hover{
+	box-shadow: 0.6em 0.6em 9px rgba(122,122,122,0.8);
+	border-color: transparent;
+	transform: scale(1.05,1.05);
+}
+
 
 .block2 .ins {
 	margin:0 auto;
