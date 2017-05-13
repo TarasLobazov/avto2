@@ -809,6 +809,7 @@ ul {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	behavior: url(./js/PIE.htc);
+	box-shadow: 0.6em 0.6em 8px rgba(122,122,122,0.5);
 
 }
 .order1 div{
@@ -816,11 +817,20 @@ ul {
 	font-size: 28px;
 	text-align: center;
 	letter-spacing: 2px;
-
-
+	transition: 0.5s;
 }
-.order1 div
-
+.order1 div:hover{
+	position: relative;
+	transform: scale(1.5,1.5);
+	color: darkorange;
+	text-shadow: 0.6em 0.6em 8px rgba(122,122,122,0.5);
+}
+.order1 img:hover{
+	transform: rotate(360deg)
+	scale(1.5,1.5)
+	translateY(-30px);
+	transition: 1s;
+}
 .order1 .order_ins {
 	text-align:center;
 }
