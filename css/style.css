@@ -53,6 +53,7 @@ ul {
 }
 
 .header{
+	position: fixed;
 	margin:0 auto;
 	height:75px;
 	background-color:#110c0d;
@@ -86,6 +87,7 @@ ul {
 	padding:3px 12px;
 	border-right:1px solid #fff;
 	display:inline-block;
+
 }
 
 .header .menu ul li.first{
@@ -98,6 +100,7 @@ ul {
 	color:#fff;
 	text-decoration:none;
 	text-transform:uppercase;
+	margin: 0 20px;
 }
 
 .header .menu ul li a:hover{
@@ -797,16 +800,26 @@ ul {
 
 .order1 {
 	position:absolute;
-	top:140px;
+	top:60px;
 	right:0;
-	width:260px;
-	height:295px;
-	background-color:#273051;
+	width:246px;
+	height:375px;
+	background-image: url("../images/bckg.png");
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	behavior: url(./js/PIE.htc);
+
 }
+.order1 div{
+	color: #fff;
+	font-size: 28px;
+	text-align: center;
+	letter-spacing: 2px;
+
+
+}
+.order1 div
 
 .order1 .order_ins {
 	text-align:center;
