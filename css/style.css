@@ -218,8 +218,9 @@ ul {
 	width:980px;
 	height:250px;
 	position:relative;
-	background:url('../images/bg5.png') 180px 30px no-repeat;
+	background:url('../images/warrant.png') 130px 10px no-repeat;
 }
+
 
 .block3 .ins .txt{
 	padding:70px 0 0 445px;
@@ -227,6 +228,7 @@ ul {
 	line-height:60px;
 	color:#eee;
 	text-transform:uppercase;
+	text-align: center;
 }
 
 .block3 .ins .txt span{
@@ -825,11 +827,13 @@ ul {
 	color: darkorange;
 	text-shadow: 0.6em 0.6em 8px rgba(122,122,122,0.5);
 }
+.order1 img{
+	transition: transform 1s;
+}
 .order1 img:hover{
 	transform: rotate(360deg)
 	scale(1.5,1.5)
 	translateY(-30px);
-	transition: 1s;
 }
 .order1 .order_ins {
 	text-align:center;
