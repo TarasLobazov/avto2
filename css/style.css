@@ -175,14 +175,14 @@ ul {
 	padding:40px 0 35px 0;
 	background:url('../images/bg3.jpg') repeat;
 }
-.td1 img{
+.block2 .td1 img{
  border: solid 3px black;
 	border-radius: 50%;
 	box-shadow: 0 0 5px 2px;
 	transform: scale(0.9,0.9);
 	transition: 0.5s;
 }
-.tr1 img:hover{
+.block2 .tr1 img:hover{
 	box-shadow: 0.6em 0.6em 9px rgba(122,122,122,0.8);
 	border-color: transparent;
 	transform: scale(1.05,1.05);
@@ -823,20 +823,21 @@ ul {
 	right:0;
 	width:246px;
 	height:375px;
-	background-image: url("../images/bckg.png");
+	/*background-image: url("../images/bckg.png");*/
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	behavior: url(./js/PIE.htc);
-	box-shadow: 0.6em 0.6em 8px rgba(122,122,122,0.5);
+	/*box-shadow: 0.6em 0.6em 8px rgba(122,122,122,0.5);*/
 
 }
 .order1 div{
-	color: #fff;
+	color: black;
 	font-size: 28px;
 	text-align: center;
 	letter-spacing: 2px;
 	transition: 0.5s;
+	font-family: 'OpenSans-CondLight';
 }
 .order1 div:hover{
 	position: relative;
@@ -844,6 +845,7 @@ ul {
 	color: darkorange;
 	text-shadow: 0.6em 0.6em 8px rgba(122,122,122,0.5);
 	cursor: pointer
+	font-family: 'OpenSans-CondBold';
 }
 .order1 img{
 	transition: transform 1s;
