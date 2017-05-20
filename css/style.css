@@ -668,6 +668,10 @@ ul {
 	line-height:16px;
 	color:#ffce09;
 }
+.block11 p{
+	margin-top: 10px;
+}
+
 
 
 .footer {
@@ -680,6 +684,10 @@ ul {
 	width:980px;
 	height:60px;
 	position:relative;
+	text-align:center;
+	font-size:26px;
+	line-height:16px;
+	color:#ffce09;
 }
 
 .footer a.logo{
