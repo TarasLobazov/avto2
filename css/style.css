@@ -642,8 +642,13 @@ ul {
 
 .block11 {
 	background:url('../images/bg4.png') repeat;
-	padding:45px 0 0 0;
-	position:relative;
+	padding-top: 45px;
+	padding-left: 15%;
+	padding-right: 15%;
+	/*position:relative;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .block11 .bl_name {
@@ -664,13 +669,6 @@ ul {
 	color:#ffce09;
 }
 
-.block11 .map {
-	margin:0 auto;
-	height:510px;
-	text-align:center;
-	position:relative;
-	z-index:1;
-}
 
 .footer {
 	background:url('../images/bg4.png') repeat;
