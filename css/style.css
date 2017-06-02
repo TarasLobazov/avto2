@@ -133,18 +133,20 @@ ul {
 .block1 .bl_name {
 	text-align:center;
 	font-size:36px;
-	line-height:50px;
+	line-height:36px;
 	color:#333;
 	text-transform:uppercase;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
 .block1 .bl_name span.sp1 {
 	color:#ff0000;
+	font-size: 22px;
 }
 
 .block1 .bl_name span.sp2 {
 	color:#333;
-	font-size:20px;
+	font-size:24px;
 }
 
 .block1 .tms {
