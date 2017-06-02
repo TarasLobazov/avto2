@@ -862,7 +862,7 @@ ul {
 .order1 img{
 	transition: transform 1s;
 }
-.order1 img:hover{
+.order-logo :hover{
 	transform: rotate(360deg)
 	scale(1.5,1.5)
 	translateY(-30px);
@@ -952,8 +952,23 @@ ul {
 	color:#333;
 	padding:2px 0 0 0;
 }
+.tel1, .tel2, .tel3{
+	font-weight: 800;
+}
+.tel1 img{
+	position: relative;
+	top:7px;
+	transform: none;
+}
+.tel2 img{
+	position: relative;
+	top:7px;
+}
 
-
+.tel3 img{
+	position: relative;
+	top:7px;
+}
 .order2 {
 	position:absolute;
 	top:40px;
