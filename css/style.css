@@ -339,7 +339,7 @@ ul {
 
 .block5 .ins .txt{
 	padding:50px 0 0 50px;
-	font-size:34px;
+	font-size:28px;
 	line-height:45px;
 	color:#333;
 	text-transform:uppercase;
@@ -355,6 +355,7 @@ ul {
 
 .block5 .ins .txt span.sp2{
 	color:#ff0000;
+	font-size: 38px;
 }
 
 .block6 {
