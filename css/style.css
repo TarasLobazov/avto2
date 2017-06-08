@@ -321,6 +321,20 @@ ul {
 	background:url('../images/shad.png') center 0 no-repeat;
 }
 
+.our{
+	display: flex;
+}
+.our .div{
+background-size: cover;
+	min-width: 360px;
+	height: 150px;
+}
+.our1{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
 .block5 {
 	background:url('../images/bg7.jpg') repeat;
 }
