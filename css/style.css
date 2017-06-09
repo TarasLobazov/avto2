@@ -321,18 +321,54 @@ ul {
 	background:url('../images/shad.png') center 0 no-repeat;
 }
 
-.our{
+.our {
+	width: 980px;
+	margin: 0 auto;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
 }
-.our .div{
-background-size: cover;
-	min-width: 360px;
-	height: 150px;
+.our-text{
+	text-align: center;
 }
-.our1{
+.our-all{
 	display: flex;
 	flex-direction: column;
-	text-align: center;
+	width: 20%;
+	margin: 20px;
+}
+.our1{
+  border-radius: 25%;
+	background-image: url("../images/our1.jpg");
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+
+.our2 {
+	border-radius: 25%;
+	background-image: url("../images/our2.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+.our3 {
+	border-radius: 25%;
+	background-image: url("../images/our3.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+.our4 {
+	border-radius: 25%;
+	background-image: url("../images/our4.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-size: cover;
 }
 
 .block5 {
@@ -850,12 +886,10 @@ background-size: cover;
 	right:0;
 	width:246px;
 	height:375px;
-	/*background-image: url("../images/bckg.png");*/
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	behavior: url(./js/PIE.htc);
-	/*box-shadow: 0.6em 0.6em 8px rgba(122,122,122,0.5);*/
 
 }
 .order1 div{
