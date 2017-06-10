@@ -319,15 +319,17 @@ ul {
 .block4 .shad  {
 	height:8px;
 	background:url('../images/shad.png') center 0 no-repeat;
-}
 
+}
+#our{
+	background: url("../images/bg1.png") repeat;
+}
 .our {
 	width: 980px;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	background: url("../images/bg1.png") repeat;
 
 }
 .our-text{
