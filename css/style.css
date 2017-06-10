@@ -327,10 +327,17 @@ ul {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	background: url("../images/bg1.png") repeat;
 
 }
 .our-text{
 	text-align: center;
+	font-family: 'OpenSans-CondLight';
+	font-size:16px;
+	line-height:20px;
+	color:#333;
+	text-transform:uppercase;
+	margin-top:10px;
 }
 .our-all{
 	display: flex;
@@ -365,6 +372,70 @@ ul {
 .our4 {
 	border-radius: 25%;
 	background-image: url("../images/our4.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+.our5 {
+	border-radius: 25%;
+	background-image: url("../images/our5.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+.our6 {
+	border-radius: 25%;
+	background-image: url("../images/our6.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+.our7 {
+	border-radius: 25%;
+	background-image: url("../images/our7.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+.our8 {
+	border-radius: 25%;
+	background-image: url("../images/our8.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+.our9 {
+	border-radius: 25%;
+	background-image: url("../images/our9.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+.our10 {
+	border-radius: 25%;
+	background-image: url("../images/our10.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+.our11 {
+	border-radius: 25%;
+	background-image: url("../images/our11.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
+.our12 {
+	border-radius: 25%;
+	background-image: url("../images/our12.jpg");
 	background-size: cover;
 	width: 200px;
 	height: 200px;
