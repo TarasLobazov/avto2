@@ -360,6 +360,7 @@ ul {
 	flex-direction: column;
 	width: 20%;
 	margin: 20px;
+	text-transform: uppercase;
 }
 
 .our1 {
@@ -527,6 +528,7 @@ ul {
 
 .block6 .bl_name span {
 	color: #333;
+	font-size: 30px;
 }
 
 .block6 table {
