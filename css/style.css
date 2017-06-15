@@ -829,7 +829,7 @@ ul {
 }
 
 .footer-tel {
-	color: fff;
+	color: white;
 	font-size: 28px;
 }
 .footer-tel img{
@@ -993,7 +993,7 @@ ul {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	behavior: url(./js/PIE.htc);
+
 
 }
 
@@ -1140,7 +1140,6 @@ ul {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	behavior: url(./js/PIE.htc);
 }
 
 .order2 .order_ins {
@@ -1228,7 +1227,6 @@ ul {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	behavior: url(./js/PIE.htc);
 }
 
 .order3 .order_ins {
@@ -1352,7 +1350,6 @@ ul {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	behavior: url(./js/PIE.htc);
 }
 
 .order4 .order_ins {
@@ -1460,7 +1457,6 @@ ul {
 	width: 659px;
 	height: 243px;
 	margin: -121px 0 0 -329px;
-	background: url('../images/tnx1.png') no-repeat;
 }
 
 .tnx1 span.sp1 {
